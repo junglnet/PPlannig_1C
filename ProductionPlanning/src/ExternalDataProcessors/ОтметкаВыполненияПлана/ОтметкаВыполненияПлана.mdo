@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eeb3c347-ab46-4a19-a66d-2bb2a5779700">
+  <producedTypes>
+    <objectType typeId="ef147adb-f1a3-4cd9-ad91-e394f2acdccf" valueTypeId="5cf0f1ee-7926-429c-a9cf-82002dabe9f1"/>
+  </producedTypes>
+  <name>ОтметкаВыполненияПлана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отметка выполнения плана</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="ef3bb29b-e3cb-4410-9a80-3055b21fb926"/>
+  <defaultForm>ExternalDataProcessor.ОтметкаВыполненияПлана.Form.Форма</defaultForm>
+  <forms uuid="2e5c434e-6748-43fe-b3d4-4c61a2bb146d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
