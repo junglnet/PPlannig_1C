@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
     <value>Контроль выполнения заданий на производство</value>
@@ -154,7 +154,7 @@
     <id>8</id>
     <items xsi:type="form:Table">
       <name>ПланированиеТаблица</name>
-      <id>50</id>
+      <id>718</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -166,7 +166,7 @@
       <titleLocation>None</titleLocation>
       <items xsi:type="form:FormField">
         <name>ПланированиеТаблицаЗаказ</name>
-        <id>63</id>
+        <id>731</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -176,10 +176,13 @@
           <paths xsi:type="form:DataPath">
             <segments>ПланированиеТаблица.Заказ</segments>
           </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.Заказ</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПланированиеТаблицаЗаказРасширеннаяПодсказка</name>
-          <id>65</id>
+          <id>733</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -194,7 +197,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаЗаказКонтекстноеМеню</name>
-          <id>64</id>
+          <id>732</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -203,7 +206,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -218,7 +221,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ПланированиеТаблицаУчасток</name>
-        <id>66</id>
+        <id>734</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -228,10 +231,13 @@
           <paths xsi:type="form:DataPath">
             <segments>ПланированиеТаблица.Участок</segments>
           </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.Участок</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПланированиеТаблицаУчастокРасширеннаяПодсказка</name>
-          <id>68</id>
+          <id>736</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -246,7 +252,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаУчастокКонтекстноеМеню</name>
-          <id>67</id>
+          <id>735</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -255,7 +261,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -270,7 +276,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ПланированиеТаблицаДатаСтарта</name>
-        <id>69</id>
+        <id>737</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -280,10 +286,13 @@
           <paths xsi:type="form:DataPath">
             <segments>ПланированиеТаблица.ДатаСтарта</segments>
           </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.ДатаСтарта</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПланированиеТаблицаДатаСтартаРасширеннаяПодсказка</name>
-          <id>71</id>
+          <id>739</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -298,7 +307,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаДатаСтартаКонтекстноеМеню</name>
-          <id>70</id>
+          <id>738</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -307,7 +316,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -322,7 +331,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ПланированиеТаблицаЗавершен</name>
-        <id>72</id>
+        <id>740</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -332,10 +341,13 @@
           <paths xsi:type="form:DataPath">
             <segments>ПланированиеТаблица.Завершен</segments>
           </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.Завершен</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПланированиеТаблицаЗавершенРасширеннаяПодсказка</name>
-          <id>74</id>
+          <id>742</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -350,7 +362,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаЗавершенКонтекстноеМеню</name>
-          <id>73</id>
+          <id>741</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -358,23 +370,16 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
       </items>
       <items xsi:type="form:FormField">
         <name>ПланированиеТаблицаДатаЗавершения</name>
-        <id>75</id>
+        <id>743</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -384,10 +389,13 @@
           <paths xsi:type="form:DataPath">
             <segments>ПланированиеТаблица.ДатаЗавершения</segments>
           </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.ДатаЗавершения</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПланированиеТаблицаДатаЗавершенияРасширеннаяПодсказка</name>
-          <id>77</id>
+          <id>745</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -402,7 +410,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаДатаЗавершенияКонтекстноеМеню</name>
-          <id>76</id>
+          <id>744</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -411,7 +419,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -426,7 +434,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ПланированиеТаблицаКомментарий</name>
-        <id>78</id>
+        <id>746</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -436,10 +444,13 @@
           <paths xsi:type="form:DataPath">
             <segments>ПланированиеТаблица.Комментарий</segments>
           </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.Комментарий</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПланированиеТаблицаКомментарийРасширеннаяПодсказка</name>
-          <id>80</id>
+          <id>748</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -454,7 +465,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаКомментарийКонтекстноеМеню</name>
-          <id>79</id>
+          <id>747</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -463,7 +474,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -478,7 +489,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ПланированиеТаблицаДокументПланирования</name>
-        <id>81</id>
+        <id>749</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -488,10 +499,13 @@
           <paths xsi:type="form:DataPath">
             <segments>ПланированиеТаблица.ДокументПланирования</segments>
           </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.ДокументПланирования</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПланированиеТаблицаДокументПланированияРасширеннаяПодсказка</name>
-          <id>83</id>
+          <id>751</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -506,7 +520,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаДокументПланированияКонтекстноеМеню</name>
-          <id>82</id>
+          <id>750</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -515,7 +529,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -530,7 +544,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ПланированиеТаблицаМодель</name>
-        <id>84</id>
+        <id>752</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -540,10 +554,13 @@
           <paths xsi:type="form:DataPath">
             <segments>ПланированиеТаблица.Модель</segments>
           </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.Модель</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПланированиеТаблицаМодельРасширеннаяПодсказка</name>
-          <id>86</id>
+          <id>754</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -558,7 +575,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаМодельКонтекстноеМеню</name>
-          <id>85</id>
+          <id>753</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -567,7 +584,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -582,7 +599,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ПланированиеТаблицаНЗ</name>
-        <id>87</id>
+        <id>755</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -592,10 +609,13 @@
           <paths xsi:type="form:DataPath">
             <segments>ПланированиеТаблица.НЗ</segments>
           </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.НЗ</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПланированиеТаблицаНЗРасширеннаяПодсказка</name>
-          <id>89</id>
+          <id>757</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -610,7 +630,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаНЗКонтекстноеМеню</name>
-          <id>88</id>
+          <id>756</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -618,25 +638,16 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>PictureField</type>
-        <editMode>EnterOnInput</editMode>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ImageFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>true</horizontalStretch>
-          <verticalStretch>true</verticalStretch>
-          <valuesPicture xsi:type="core:PictureRef">
-            <picture>StdPicture.DialogExclamation</picture>
-          </valuesPicture>
-          <fileDragMode>AsFileRef</fileDragMode>
-        </extInfo>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
       </items>
       <items xsi:type="form:FormField">
         <name>ПланированиеТаблицаДатаОтгрузки</name>
-        <id>90</id>
+        <id>758</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -646,10 +657,13 @@
           <paths xsi:type="form:DataPath">
             <segments>ПланированиеТаблица.ДатаОтгрузки</segments>
           </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.ДатаОтгрузки</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПланированиеТаблицаДатаОтгрузкиРасширеннаяПодсказка</name>
-          <id>92</id>
+          <id>760</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -664,7 +678,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаДатаОтгрузкиКонтекстноеМеню</name>
-          <id>91</id>
+          <id>759</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -673,7 +687,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -688,7 +702,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ПланированиеТаблицаКомплектация</name>
-        <id>93</id>
+        <id>761</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -698,10 +712,13 @@
           <paths xsi:type="form:DataPath">
             <segments>ПланированиеТаблица.Комплектация</segments>
           </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.Комплектация</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПланированиеТаблицаКомплектацияРасширеннаяПодсказка</name>
-          <id>95</id>
+          <id>763</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -716,7 +733,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаКомплектацияКонтекстноеМеню</name>
-          <id>94</id>
+          <id>762</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -725,7 +742,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -740,7 +757,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ПланированиеТаблицаМатериал</name>
-        <id>96</id>
+        <id>764</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -750,10 +767,13 @@
           <paths xsi:type="form:DataPath">
             <segments>ПланированиеТаблица.Материал</segments>
           </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.Материал</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПланированиеТаблицаМатериалРасширеннаяПодсказка</name>
-          <id>98</id>
+          <id>766</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -768,7 +788,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаМатериалКонтекстноеМеню</name>
-          <id>97</id>
+          <id>765</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -777,7 +797,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -790,9 +810,56 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
+      <items xsi:type="form:FormField">
+        <name>ПланированиеТаблицаИзм</name>
+        <id>767</id>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.Изм</segments>
+          </paths>
+          <paths xsi:type="form:DataPath">
+            <segments>ПланированиеТаблица.Изм</segments>
+          </paths>
+        </dataPath>
+        <extendedTooltip>
+          <name>ПланированиеТаблицаИзмРасширеннаяПодсказка</name>
+          <id>769</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПланированиеТаблицаИзмКонтекстноеМеню</name>
+          <id>768</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
       <autoCommandBar>
         <name>ПланированиеТаблицаКоманднаяПанель</name>
-        <id>52</id>
+        <id>719</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -801,6 +868,10 @@
         <horizontalAlign>Left</horizontalAlign>
         <autoFill>true</autoFill>
       </autoCommandBar>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПланированиеТаблицаПриИзменении</name>
+      </handlers>
       <searchStringAddition>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -808,10 +879,10 @@
           <common>true</common>
         </userVisible>
         <name>ПланированиеТаблицаСтрокаПоиска</name>
-        <id>54</id>
+        <id>722</id>
         <extendedTooltip>
           <name>ПланированиеТаблицаСтрокаПоискаРасширеннаяПодсказка</name>
-          <id>56</id>
+          <id>724</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -826,7 +897,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаСтрокаПоискаКонтекстноеМеню</name>
-          <id>55</id>
+          <id>723</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -845,10 +916,10 @@
           <common>true</common>
         </userVisible>
         <name>ПланированиеТаблицаСостояниеПросмотра</name>
-        <id>57</id>
+        <id>728</id>
         <extendedTooltip>
           <name>ПланированиеТаблицаСостояниеПросмотраРасширеннаяПодсказка</name>
-          <id>59</id>
+          <id>730</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -863,7 +934,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаСостояниеПросмотраКонтекстноеМеню</name>
-          <id>58</id>
+          <id>729</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -884,10 +955,10 @@
           <common>true</common>
         </userVisible>
         <name>ПланированиеТаблицаУправлениеПоиском</name>
-        <id>60</id>
+        <id>725</id>
         <extendedTooltip>
           <name>ПланированиеТаблицаУправлениеПоискомРасширеннаяПодсказка</name>
-          <id>62</id>
+          <id>727</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -902,7 +973,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ПланированиеТаблицаУправлениеПоискомКонтекстноеМеню</name>
-          <id>61</id>
+          <id>726</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -917,7 +988,7 @@
       </searchControlAddition>
       <extendedTooltip>
         <name>ПланированиеТаблицаРасширеннаяПодсказка</name>
-        <id>53</id>
+        <id>721</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -932,7 +1003,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ПланированиеТаблицаКонтекстноеМеню</name>
-        <id>51</id>
+        <id>720</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -940,7 +1011,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <representation>HierarchicalList</representation>
+      <representation>Tree</representation>
       <changeRowSet>true</changeRowSet>
       <changeRowOrder>true</changeRowOrder>
       <autoMaxWidth>true</autoMaxWidth>
@@ -954,14 +1025,10 @@
       <verticalScrollBar>AutoUse</verticalScrollBar>
       <horizontalLines>true</horizontalLines>
       <verticalLines>true</verticalLines>
-      <useAlternationRowColor>true</useAlternationRowColor>
       <searchOnInput>Auto</searchOnInput>
       <initialListView>Auto</initialListView>
-      <initialTreeView>ExpandAllLevels</initialTreeView>
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
-      <enableStartDrag>true</enableStartDrag>
-      <enableDrag>true</enableDrag>
       <fileDragMode>AsFileRef</fileDragMode>
     </items>
     <visible>true</visible>
@@ -1034,6 +1101,36 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаСохранить</name>
+      <id>716</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаСохранитьРасширеннаяПодсказка</name>
+        <id>717</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.Сохранить</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1054,7 +1151,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.ОтметкаВыполненияПлана</types>
+      <types>ExternalDataProcessor.ОтметкаВыполненияПлана</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1315,6 +1412,23 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>Изм</name>
+      <title>
+        <key>ru</key>
+        <value>Изм</value>
+      </title>
+      <id>15</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>НоменклатурнаяГруппа</name>
@@ -1355,6 +1469,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Сформировать</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>Сохранить</name>
+    <title>
+      <key>ru</key>
+      <value>Сохранить</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Сохранить</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
